@@ -5,7 +5,7 @@ body {
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     height: 100vh; /* Set the body height to full viewport height */
-    margin: 0; /* Remove default margin */
+    
     display: flex; /* Use flexbox for centering the main container */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
@@ -13,15 +13,14 @@ body {
 
 html, body {
     height: 100%; /* Ensure the html and body take up full height */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+   
 }
 
 .main {
     background-color: white;
     width: 100%; /* Adjust the width to be responsive */
     max-width: 500px; /* Set a maximum width for larger screens */
-    padding: 10px; /* Add some padding inside the form */
+    padding: 1J0px; /* Add some padding inside the form */
     border-radius: 10px; /* Add rounded corners for a modern look */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
     box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
@@ -32,7 +31,7 @@ html, body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    padding: 20px 0; /* Add padding at the top and bottom */
+    padding: 25px 25px; /* Add padding at the top and bottom */
     color: gray;
     justify-content: center;
     align-items: center;
@@ -112,7 +111,8 @@ html, body {
     display: flex;
     gap: 10px; /* Reduced gap between buttons */
     justify-content: center;
-    margin: 20px 0; /* Add some vertical margin */
+    margin: 20px 20px; /* Add some vertical margin */
+    padding: 20px;
 }
 
 .submit {
